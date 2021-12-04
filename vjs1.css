@@ -1,0 +1,41 @@
+html {
+  background-image: url("https://research.fb.com/wp-content/uploads/2018/05/music-hero2.jpg");
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.keys {
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.key {
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.192);
+  width: 90px;
+  height: 100px;
+  padding: 10px 10px 0px 10px;
+  border: 3px solid yellowgreen;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.09s;
+}
+.mono {
+  font-size: 30px;
+  text-align: center;
+}
+.sub {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.playing {
+  transform: scale(1.1);
+  border-width: 7px;
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
